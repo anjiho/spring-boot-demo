@@ -62,7 +62,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("API")
+                .title("허원혁 SPRING BOOT API")
                 //.description("API EXAMPLE")
                 .version("2.0")
                 .build();
