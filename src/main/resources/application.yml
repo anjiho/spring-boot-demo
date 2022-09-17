@@ -1,17 +1,3 @@
 spring:
   profiles:
     active: default
-  
-
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://43.200.5.250:3306/heo
-    username: 'root'
-    password: 'Extremex1@@'
-    dbcp2:
-      validation-query: 'select 1'
-      test-while-idle: true
-      time-between-eviction-runs-millis: 3600000
-    tomcat:
-      validation-query: 'select 1'
-      validation-query-timeout: 3600000
